@@ -1,0 +1,279 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">     
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">     
+        <style>
+            body{
+                padding-top: 56px;
+            }
+            .jumbotron
+            {
+                text-shadow: #000 1px 1px;
+            }
+            .background-header
+            {
+                background-image: url("images/P.png");
+                background-color: #fafbfc;
+                height: 200px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size:cover;
+                position:relative;
+            }
+            .button-primer
+            {
+                background-color: #00bd8e;
+                border-color: #0b9b6b;
+                color:#fff;
+                text-shadow: 0px 0px;
+            }
+            .button-primer:hover
+            {
+                background-color: #038c6a;
+                color: #fff;
+                text-shadow: 0px 0px;
+
+            }
+            .container-fluid-max 
+            {
+                    max-width: 1440px;
+            }
+            .service-style
+            {
+                margin-top: 15px;
+                background-color: transparent;
+            }
+            .text-green
+            {
+                color:#0b9b6b;
+            }
+            .bg-red
+            {
+                background-color: #f25757;
+            }
+            h2:before,
+            h2:after 
+            {
+                background-color: #0b9b6b;
+                content: "";
+                display: inline-block;
+                height: 1px;
+                position: relative;
+                vertical-align: middle;
+                width: 25%;
+            }
+            h2:before 
+            {
+                right: 0.5em;
+                margin-left: -50%;
+            }
+            h2:after 
+            {
+                left: 0.5em;
+                margin-right: -50%;
+            }
+            .button-sekunder
+            {
+                background-color: transparent;
+                border-color: #dbdbdb;
+                color:#0b9b6b;
+            }
+            .button-sekunder:hover
+            {
+                    background-color: #0b9b6b;
+                    border-color: #dbdbdb;
+                    color:#fff;
+            }
+            .cover 
+            {
+                    background: no-repeat center/cover;
+            }
+        </style>
+    </head>
+    <body>
+        <!--Navigasi bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/Logo.png"width=30%></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                </button>  
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#product">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--header-->
+        <section class="jumbotron jumbotron-fluid background-header">
+            <div class="container-fluid text-center">
+                <h1 class="display-9" style="color:aliceblue; ">Kemudahan Perjalanan, Harga Terjangkau</h1>
+                <p class="lead" style="font-weight: bold;color:#fff;">Kami menyediakan banyak kendaraan yang kamu butuhkan untuk perjalanan anda.</p>
+                <a href="#" class="btn button-primer btn-lg" role="button">Sewa Sekarang</a>
+                <a href="#" class="btn btn-secondary btn-lg" role="button">Lihat dulu</a>
+            </div>
+        </section>
+
+         <!--service-->
+         <section id="services" class="service-style  container-fluid container-fluid-max " >
+            <div class="row text-center">
+                <div class="col-12 pb-4">
+                    <h2 class="display-4 text-center mb-5" style="margin-top: 4rem!important;">Mengapa memilih kami? 
+                    </h2>
+               </div>
+               <div class="col-12 col-sm-6 col-lg-3">
+                    <span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x text-green"></i>
+                        <i class="fas fa-clock fa-stack-1x text-white"></i>
+                    </span>
+                    <h3>Ketersediaan 24/7</h3>
+                    <p>Layanan pelanggan atau bantuan darurat yang tersedia 24 jam sehari, 7 hari seminggu, untuk menangani kebutuhan pelanggan kapan saja.</p>  
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x text-green"></i>
+                        <i class="fas fa-user fa-stack-1x text-white"></i>
+                    </span>
+                    <h3>Pelayanan Pelanggan</h3>
+                    <p>Tim layanan pelanggan yang ramah dan responsif siap membantu pelanggan dengan pertanyaan atau masalah sewa kendaraan.</p>  
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x  text-green"></i>
+                        <i class="fas fa-money-bill fa-stack-1x text-white"></i>
+                    </span>
+                    <h3>Biaya Terjangkau</h3>
+                    <p>Menawarkan harga yang kompetitif dan berbagai penawaran khusus, seperti diskon jangka panjang atau paket liburan.</p>  
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <span class="fa-stack fa-2x">
+                       <i class="fas fa-circle fa-stack-2x  text-green"></i>
+                        <i class="fas fa-chart-line fa-stack-1x text-white"></i>
+                    </span>
+                    <h3>Terarah</h3>
+                    <p>Menyediakan sistem navigasi terbaru dan informasi perjalanan yang memudahkan pelanggan untuk menjelajahi tujuan mereka.</p>  
+                </div>
+            </div>        
+        </section>
+        <!--produk-->
+        <section id="product" class="container">
+            <div class="row text-center">
+                <div class="col-12 pb-4">
+                    <h2 class="display-4 text-center mb-5" style="margin-top: 4rem!important;">Produk kami</h2>
+                 </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" style="max-height:400px" src="images/A.png" alt ="Product 1">
+                        <div class="card-body">
+                            <h4 class="card-title">Motor</h4>
+                           <p class="card-text">Rehatkan diri di akhir pekan dengan petualangan motor yang seru! Sewa motor kami selama akhir pekan dan dapatkan diskon 15%. Rasakan kebebasan berkendara tanpa perlu khawatir tentang anggaran"</p>
+              
+                           </div>
+                         <div class="card-footer">
+                                <a href="#" class="btn button-sekunder">Lihat Detail & Harga &raquo;</a>
+                         </div>
+                    </div>
+                 </div>
+                
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" style="max-height:400px" src="images/C.png" alt ="Product 1">
+                        <div class="card-body">
+                            <h4 class="card-title">Mobil</h4>
+                            <p class="card-text">Liburan keluarga yang menyenangkan! Sewa mobil bersama keluarga dan nikmati diskon 10%.Jelajahi bersama dengan lebih hemat</p>
+    
+                        </div>
+                        <div class="card-footer">
+                                <a href="#" class="btn button-sekunder">Lihat Detail & Harga &raquo;</a>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" style="max-height:400px" src="images/B.png" alt ="Product 1">
+                        <div class="card-body">
+                            <h4 class="card-title">Bus</h4>
+                            <p class="card-text">Jelajahi destinasi wisata favorit Anda dengan kenyamanan dan gaya! Pesan paket perjalanan bus eksklusif kami dan nikmati panduan perjalanan, makanan ringan, dan hiburan di dalam bus. Pengalaman wisata yang tak terlupakan</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn button-sekunder">Lihat Detail & Harga &raquo;</a>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </section>
+        <!--about-->
+        <section id="about"  class="bg-light">
+            <div class="container-fluid">
+               <h2 class="display-4 text-center mb-5" style="margin-top: 5rem!important;">Tentang kami </h2>  
+               <div class="row no-gutters">
+                   <!--gambar & text pertama-->
+                  <div class="col-12 col-md-6">
+                    <div style="padding: 15px;">
+                        <h3 class="display-5 text-center text-green mt-3 mb-3">Merintis dari awal</h3>
+                            <p>Pada tahun 2005, di sebuah kota kecil yang tumbuh menjadi pusat transportasi regional, seorang pengusaha bernama Andrew Anggara Putera Wisesa memiliki visi untuk memberikan aksesibilitas yang lebih besar kepada masyarakat setempat dalam hal mobilitas. Dengan semangat kewirausahaan yang kuat dan tekad untuk mengubah cara orang bergerak, Andrew Anggara Putera Wisesa mendirikan perusahaan rental kendaraan yang diberi nama "Wisesa Mobilindo.</p>
+                            <p>Perusahaan ini memulai perjalanan bisnisnya dengan hanya beberapa mobil dan sepeda motor yang disewakan kepada pelanggan lokal. Namun, berkat komitmen yang kuat terhadap layanan pelanggan yang berkualitas, Wisesa Mobilindo segera mendapatkan reputasi sebagai penyedia rental kendaraan yang dapat diandalkan.</p>
+                            <p>Selama tahun-tahun berikutnya, perusahaan ini terus berkembang pesat. Wisesa Mobilindo menginvestasikan dalam perluasan armada dengan berbagai jenis kendaraan untuk memenuhi kebutuhan beragam pelanggan, termasuk mobil keluarga, kendaraan listrik, truk, dan sepeda motor.</p>
+                          
+                           <div class="col-12 pt-3 text-center">
+                            <a class="btn bg-red btn-lg text-white" target="_blank" 
+                            href="" role="button">Selengkapnya</a>
+                        </div>            
+                    </div>
+                 </div>
+                  <div class="col-12 col-md-6">
+                     <div class=" vh-100 cover" style="background-image: url('images/F1.png');"></div>
+                    </div>
+                   <!--gambar & teks kedua-->
+                   <div class="col-12 col-md-6">
+                    <div class=" vh-100 cover" style="background-image: url('images/F2.png');"></div>
+                    </div>
+                    <div class="col-12 col-md-6">     
+                        <div style="padding: 15px;">
+                            <h3 class="display-5 text-center text-green mt-3 mb-3">Tumbuh dan Besar</h3>
+                            <p>Dengan perluasan cabang-cabangnya di seluruh kota besar dan bandara, Wisesa Mobilindo tidak hanya menjadi pemain terkemuka di pasar lokal tetapi juga menjadi perusahaan rental kendaraan yang dihormati di tingkat nasional. Mereka terus mengintegrasikan teknologi terbaru dalam operasinya, memudahkan pelanggan untuk memesan kendaraan dengan cepat melalui aplikasi seluler dan situs web yang user-friendly</p> 
+                            <p>Hingga saat ini, Wisesa Mobilindo terus menjadi bagian penting dalam kehidupan mobilitas masyarakat, menyediakan kendaraan yang handal dan layanan pelanggan yang istimewa. Dengan komitmen mereka terhadap inovasi dan kualitas, mereka melanjutkan perjalanan panjang menuju sukses dalam industri persewaan kendaraan</p>
+                               <div class="col-12 pt-3 text-center">
+                                <a class="btn bg-red btn-lg text-white" target="_blank" 
+                                href="" role="button">Selengkapnya</a>
+                            </div>            
+                        </div>
+                  </div>  
+             </div>    
+        </section>
+        <!--contact-->
+        <section id="contact" class="container-fluid text-center" style="background-color: #e9f2eb; padding-top: 25px;">
+            <h2 class="display-4 pb-4">Hubungi Kami Sekarang!</h2>
+            <p class="lead pb-3">Kirim pesan untuk bergabung bersama kami.</p>
+            <a href="#" class="btn button-primer btn-lg mb-4">WhatsApp Kami</a>
+        </section>
+	     
+       <footer class="bg-dark">
+        <div class="col-lg-12" style="padding:10px">
+          <div style="text-align: center;">
+            <a href="#" class="text-light" style="padding:5px"><i class=" fab fa-facebook"></i></a>
+            <a href="#" class="text-light" style="padding:5px"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-light" style="padding:5px"><i class="fab fa-instagram"></i></a>
+           </div>
+            <p class="text-center text-secondary">Copyright &copy WisesaCompany 2023</p> 
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+    </body>
+</html>
